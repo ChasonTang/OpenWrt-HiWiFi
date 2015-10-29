@@ -2111,7 +2111,7 @@ CONFIG_PACKAGE_lua=y
 #
 # CONFIG_PACKAGE_libacl is not set
 # CONFIG_PACKAGE_libattr is not set
-CONFIG_PACKAGE_libext2fs=y
+# CONFIG_PACKAGE_libext2fs is not set
 # CONFIG_PACKAGE_libfuse is not set
 # CONFIG_PACKAGE_libnfsidmap is not set
 # CONFIG_PACKAGE_libow is not set
@@ -3886,7 +3886,7 @@ CONFIG_PACKAGE_wpad-mini=y
 # CONFIG_PACKAGE_disktype is not set
 # CONFIG_PACKAGE_dosfsck is not set
 # CONFIG_PACKAGE_dosfslabel is not set
-CONFIG_PACKAGE_e2fsprogs=y
+# CONFIG_PACKAGE_e2fsprogs is not set
 # CONFIG_PACKAGE_fuse-utils is not set
 # CONFIG_PACKAGE_mkdosfs is not set
 # CONFIG_PACKAGE_ncdu is not set
