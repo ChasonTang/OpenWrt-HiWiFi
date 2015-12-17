@@ -172,6 +172,18 @@ ramips_board_detect() {
 	*"Hauppauge Broadway")
 		name="broadway"
 		;;
+	*"HC5661")
+		name="hc5661"
+		;;
+	*"HC5761")
+		name="hc5761"
+		;;
+	*"HC5861")
+		name="hc5861"
+		;;
+	*"HC5661A")
+		name="hc5661a"
+		;;
 	*"Huawei D105")
 		name="d105"
 		;;
