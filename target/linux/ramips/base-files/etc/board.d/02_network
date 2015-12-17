@@ -293,6 +293,13 @@ ramips_setup_macs()
 		wan_mac=$(mtd_get_mac_binary devdata 7)
 		;;
 
+	hc5*61 |\
+	hc5661a)
+		lan_mac=`mtd_get_mac_ascii bdinfo "Vfac_mac "`
+		[ -n "$lan_mac" ] || lan_mac=$(cat /sys/class/net/eth0/address)
+		wan_mac=$(macaddr_add "$lan_mac" 1)
+		;;
+
 	w306r-v20)
 		lan_mac=$(cat /sys/class/net/eth0/address)
 		wan_mac=$(macaddr_add "$lan_mac" 5)
